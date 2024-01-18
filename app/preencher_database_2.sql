@@ -1,0 +1,153 @@
+
+-- Insert into DIRETOR table
+INSERT INTO DIRETOR (ID_Pessoa, ID_Filme, E_Principal) VALUES
+(1, 1, TRUE),
+(2, 2, TRUE),
+(3, 3, TRUE),
+(4, 4, TRUE),
+(5, 5, TRUE),
+(6, 6, TRUE),
+(7, 7, TRUE),
+(8, 8, TRUE),
+(9, 9, TRUE),
+(10, 10, TRUE),
+(11, 11, TRUE),
+(12, 12, TRUE),
+(13, 13, TRUE),
+(14, 14, TRUE),
+(15, 15, TRUE),
+(16, 16, TRUE),
+(17, 17, TRUE),
+(18, 18, TRUE),
+(19, 19, TRUE),
+(20, 20, TRUE);
+
+-- Insert into PRODUTOR table
+INSERT INTO PRODUTOR (ID_Pessoa, ID_Filme) VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 16),
+(17, 17),
+(18, 18),
+(19, 19),
+(20, 20);
+
+-- Insert into ATOR table
+INSERT INTO ATOR (ID_Pessoa, ID_Filme, Principal, Personagem) VALUES
+(1, 1, TRUE, 'Jules Winnfield'),
+(2, 2, TRUE, 'Jasmine French'),
+(3, 3, TRUE, 'Lola'),
+(4, 4, TRUE, 'Kim Ki-taek'),
+(5, 5, TRUE, 'Michèle Leblanc'),
+(6, 6, TRUE, 'Munna'),
+(7, 7, TRUE, 'Charlotte'),
+(8, 8, TRUE, 'Cleo'),
+(9, 9, TRUE, 'Chow Mo-wan'),
+(10, 10, TRUE, 'M'),
+(11, 11, TRUE, 'Aki Kaurismäki'),
+(12, 12, TRUE, 'Lady Bird'),
+(13, 13, TRUE, 'Li Mu-bai'),
+(14, 14, TRUE, 'Eva Khatchadourian'),
+(15, 15, TRUE, 'Oh Dae-su'),
+(16, 16, TRUE, 'Manie'),
+(17, 17, TRUE, 'Mookie'),
+(18, 18, TRUE, 'Vijay Verma'),
+(19, 19, TRUE, 'Jan Nyman'),
+(20, 20, TRUE, 'Anne Laurent');
+
+-- Insert into ROTEIRISTA table
+INSERT INTO ROTEIRISTA (ID_Pessoa, ID_Filme) VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 16),
+(17, 17),
+(18, 18),
+(19, 19),
+(20, 20);
+
+-- Insert into PREMIO table
+INSERT INTO PREMIO (ID_Edicao, Nome, Tipo, ID_Pessoa, ID_Filme, Vencedor) VALUES
+(1, 'Best Director', 'Melhor Diretor', 1, 1, TRUE),
+(1, 'Best Actress', 'Melhor Atriz Principal', 2, 2, TRUE),
+(3, 'Best Director', 'Melhor Diretor', 5, 5, TRUE),
+(3, 'Best Actor', 'Melhor Ator Principal', 6, 6, TRUE),
+(5, 'Best Director', 'Melhor Diretor', 9, 9, TRUE),
+(7, 'Best Director', 'Melhor Diretor', 13, 13, TRUE),
+(8, 'Best Actor', 'Melhor Ator Principal', 15, 15, TRUE),
+(8, 'Best Director', 'Melhor Diretor', 16, 16, TRUE),
+(9, 'Best Director', 'Melhor Diretor', 18, 18, TRUE),
+(10, 'Best Director', 'Melhor Diretor', 19, 19, TRUE),
+(10, 'Best Director', 'Melhor Diretor', 20, 20, TRUE);
+
+-- Insert into MELHOR_FILME table
+INSERT INTO MELHOR_FILME (ID_Edicao, ID_Filme, Vencedor) VALUES
+(1, 1, TRUE),
+(1, 2, FALSE),
+(2, 3, TRUE),
+(2, 4, FALSE),
+(3, 5, TRUE),
+(3, 6, FALSE),
+(4, 7, TRUE),
+(4, 8, FALSE),
+(5, 9, TRUE),
+(5, 10, FALSE),
+(6, 11, TRUE),
+(6, 12, FALSE),
+(7, 13, TRUE),
+(7, 14, FALSE),
+(8, 15, TRUE),
+(8, 16, FALSE),
+(9, 17, TRUE),
+(9, 18, FALSE),
+(10, 19, TRUE),
+(10, 20, FALSE);
+
+
+-- Insert into JURI table
+INSERT INTO JURI (ID_Edicao, ID_Pessoa) VALUES
+(2, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 16),
+(17, 17),
+(18, 18),
+(19, 19),
+(20, 20);
